@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+p a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.wrap {
+    display: block;
+    overflow: hidden;
+    z-index: 10000;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.content {
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-shadow: #323232 0px 1px 0px;
+}
+
+.description {
+    background: rgba(78, 205, 196, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    border-top: 1px solid #ebebeb;
+}
+
+.description > p:last-child {
+    margin-bottom: 0;
+}
+
+.backstretch::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    background-image: url('images/bg-overlay.png');
+    background-color: rgba(0, 0, 0, 0.4);
+    background-repeat: repeat;
+    background-size: 2px 2px;
+    background-position: top left;
+}
+
+.input-group-addon {
+    border-color: #fff;
+    background: #fff;
+    border-radius: 0 !important;
+    color: rgba(78, 205, 196, 1);
+    display: none;
+}
+
+.semail, .semail:hover, .semail:focus {
+    -webkit-appearance: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none;
+    border-color: #fff;
+    border-left-color: #ebebeb;
+}
+
+.sbtn {
+    border-color: #fff;
+    border-left-color: #ebebeb;
+    background: #fff;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+    outline: none;
+}
+
+.sbtn:hover, .sbtn:focus {
+    border-color: #ebebeb;
+    border-left-color: #ebebeb !important;
+    box-shadow: none !important;
+    outline: none;
+    background: #ebebeb;
+}
+
+.sbtn:active {
+    border: none;
+}
+
+.social-media {
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media a:hover, .social-media a:focus {
+    color: #fff;
+}
+
+.alert-info > a {
+    color: #31708f;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 480px) {
+    .logo {
+        width: 60%;
+    }
+
+    .social-media {
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 786px) {
+    h2 {
+        font-size: 30px
+    }
+
+    .input-group-addon {
+        display: table-cell;
+    }
+}

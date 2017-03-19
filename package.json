@@ -1,0 +1,11 @@
+{
+  "name": "devconf-2017-launchpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "rafek <rafal.legiedz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
